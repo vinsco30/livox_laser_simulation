@@ -6,6 +6,12 @@ A package to provide plug-in for [Livox Series LiDAR](https://www.livoxtech.com)
 - Gazebo (= 9.x, http://gazebosim.org/)
 - Ubuntu(=18.04)
 
+## Additional Requirements for ROS Noetic
+- Install ignition citadel ```sudo apt-get install ignition-citadel``` 
+- Changed the path to ignition math libraries to ```#include <ignition/math6/ignition/math.hh>```
+- Changed C++ version in the CMakeList.txt to  ```add_compile_options(-std=c++17)```
+
+
 ## Results
 - avia
 
